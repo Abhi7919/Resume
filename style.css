@@ -1,0 +1,83 @@
+/* style.css */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+#top {
+    color: rgb(245, 10, 10);
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a {
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* Main Container */
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 63vh;
+    background: url("background.jpg") no-repeat center center/cover;
+}
+
+/* Button Styling */
+.btn {
+    margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+/* Featured Products Section */
+#container4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
